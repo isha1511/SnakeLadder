@@ -8,6 +8,7 @@ public class SnakeLadder {
         int startPosition = 0;
         int nextPosition=0;
         int dice=0;
+        int diceRolls=0;
 
         Random random=new Random();
         board[3] = 22;   // Ladder from 3 to 22
@@ -39,6 +40,8 @@ public class SnakeLadder {
     System.out.println("Dice Roll: " + dice + ", Position: " + startPosition);
     }
     
+    System.out.println("Game Over! Number of dice rolls: " + diceRolls);
+
     }
 }
       
